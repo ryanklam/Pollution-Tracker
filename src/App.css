@@ -3,12 +3,12 @@
 }
 
 h1 {
-  background-color: aquamarine;
+  text-align: center;
 }
 
 h2 {
-  background-color: lavender;
 }
 
-div {
+p {
+  text-align: center;
 }
