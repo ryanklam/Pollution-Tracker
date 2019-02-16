@@ -36,7 +36,7 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <h1>Pollute More</h1>
+        <h1>Pollution</h1>
         <h2>What is your average electricity usage per month in kWh?</h2>
         <InputGroup>
           <FormControl
@@ -83,12 +83,12 @@ class App extends Component {
             Calculate
           </Button>{" "}
         </p>
-        <h1>Total CO2: {this.state.total} metric tons per month</h1>
+        <h1>You produced {this.state.total} metric tons of CO2 per month</h1>
         <h1>or {this.state.total * 12} metric tons per year</h1>
         <h1>
           That's the equivalent of {(this.state.total * 12) / 6.1} elephants!
         </h1>
-        <h1>🐘🐘🐘</h1>
+        <h3>🐘🐘🐘</h3>
       </Container>
     );
   }
