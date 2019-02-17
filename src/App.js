@@ -41,6 +41,7 @@ class App extends Component {
     return (
       <Container>
         <h1>How Much Do You Pollute?</h1>
+        <hr />
         <h2>
           What is your average electricity usage per month in kilowatt-hours?
         </h2>
