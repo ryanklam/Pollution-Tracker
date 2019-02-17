@@ -41,7 +41,9 @@ class App extends Component {
     return (
       <Container>
         <h1>How Much Do You Pollute?</h1>
-        <h2>What is your average electricity usage per month in kWh?</h2>
+        <h2>
+          What is your average electricity usage per month in kilowatt-hours?
+        </h2>
         <InputGroup>
           <FormControl
             placeholder="enter..."
@@ -80,7 +82,7 @@ class App extends Component {
           </InputGroup.Append>
         </InputGroup>
         <br />
-        <h2>What is the MPG rating of your car?</h2>
+        <h2>What is the miles per gallon rating of your car?</h2>
         <InputGroup>
           <FormControl
             placeholder="enter..."
