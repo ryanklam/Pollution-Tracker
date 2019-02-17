@@ -1,14 +1,21 @@
-.input {
-  width: 50%;
+h1 {
+  text-align: center;
+  font-size: 40px;
 }
 
-h1 {
-  background-color: aquamarine;
+h3 {
+  font-size: 60px;
+  text-align: center;
 }
 
 h2 {
-  background-color: lavender;
+  font-size: 25px;
 }
 
-div {
+p {
+  text-align: center;
+}
+
+body {
+  background-color: lavender;
 }
