@@ -15,6 +15,7 @@ class App extends Component {
     electricity: 0,
     miles: 0,
     water: 0,
+    username: "",
     mpg: 0,
     total: 0
   };
@@ -41,6 +42,16 @@ class App extends Component {
     return (
       <Container>
         <h1>How Much Do You Pollute?</h1>
+        <h2>username pls</h2>
+        <InputGroup>
+          <FormControl
+            placeholder="enter..."
+            name="username"
+            onChange={this.handleChange}
+            maxLength={20}
+          />
+        </InputGroup>
+        <br />
         <h2>What is your average electricity usage per month in kWh?</h2>
         <InputGroup>
           <FormControl
