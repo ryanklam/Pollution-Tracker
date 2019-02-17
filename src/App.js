@@ -104,12 +104,15 @@ class App extends Component {
         <Alert show={this.state.show} variant="light">
           <p>
             <h2>
-              You produced {this.state.total} metric tons of CO2 per month
+              You produced {this.state.total.toFixed(2)} metric tons of CO2 per
+              month
             </h2>
-            <h2>or {this.state.total * 12} metric tons per year</h2>
             <h2>
-              That's the equivalent of {(this.state.total * 12) / 6.1}{" "}
-              elephants!
+              or {(this.state.total * 12).toFixed(2)} metric tons per year.
+            </h2>
+            <h2>
+              That's the equivalent of{" "}
+              {((this.state.total * 12) / 6.1).toFixed(2)} elephants!
             </h2>
             <h3>🐘🐘🐘</h3>
           </p>
